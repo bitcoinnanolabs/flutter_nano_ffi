@@ -26,9 +26,9 @@ class _MyAppState extends State<MyApp> {
     // Getting public key from this private key
     String pubKey = NanoKeys.createPublicKey(privateKey);
     // Getting address (nano_, ban_) from this pubkey
-    address = NanoAccounts.createAccount(NanoAccountType.NANO, pubKey);
+    address = NanoAccounts.createAccount(NanoAccountType.BTCO, pubKey);
     // Validating address
-    NanoAccounts.isValid(NanoAccountType.NANO, address);
+    NanoAccounts.isValid(NanoAccountType.BTCO, address);
 
     // Creating a block
     int accountType = NanoAccountType.NANO;

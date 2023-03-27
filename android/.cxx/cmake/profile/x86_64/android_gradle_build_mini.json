@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ed25519-donna-Release-x86_64": {
+      "artifactName": "ed25519-donna",
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/x86_64\" ed25519-donna",
+      "abi": "x86_64",
+      "output": "/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/x86_64/libed25519-donna.a",
+      "runtimeFiles": []
+    },
+    "ed25519_blake2b-Release-x86_64": {
+      "artifactName": "ed25519_blake2b",
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/x86_64\" ed25519_blake2b",
+      "abi": "x86_64",
+      "output": "/home/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/profile/obj/x86_64/libed25519_blake2b.so",
+      "runtimeFiles": []
+    }
+  }
+}

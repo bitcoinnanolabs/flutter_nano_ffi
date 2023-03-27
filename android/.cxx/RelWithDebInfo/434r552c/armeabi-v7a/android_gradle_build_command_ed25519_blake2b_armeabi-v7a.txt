@@ -1,7 +1,0 @@
-Executable : /Users/douglas/Library/Android/sdk/cmake/3.22.1/bin/ninja
-arguments : 
--C
-/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/RelWithDebInfo/434r552c/armeabi-v7a
-ed25519_blake2b
-jvmArgs : 
-

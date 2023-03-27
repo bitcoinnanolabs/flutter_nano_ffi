@@ -1,23 +1,38 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
-    "file": "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/CMakeLists.txt",
-    "tag": "release|armeabi-v7a",
-    "diagnosticCode": "UNKNOWN"
+    "message": "Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a",
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
-    "file": "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/CMakeLists.txt",
-    "tag": "release|armeabi-v7a",
-    "diagnosticCode": "UNKNOWN"
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/douglas/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/CMakeLists.txt",
-    "tag": "release|armeabi-v7a",
-    "diagnosticCode": "UNKNOWN"
+    "file": "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
   }
 ]

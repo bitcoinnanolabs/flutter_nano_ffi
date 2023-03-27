@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/release/x86_64'
+ninja: no work to do.

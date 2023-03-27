@@ -1,32 +1,26 @@
 {
   "buildFiles": [
-    "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/CMakeLists.txt"
+    "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
-  "cleanCommandsComponents": [
-    [
-      "/Users/douglas/Library/Android/sdk/cmake/3.22.1/bin/ninja",
-      "-C",
-      "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/debug/x86",
-      "clean"
-    ]
+  "cleanCommands": [
+    "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommandComponents": [
-    "/Users/douglas/Library/Android/sdk/cmake/3.22.1/bin/ninja",
-    "-C",
-    "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/debug/x86",
-    "{LIST_OF_TARGETS_TO_BUILD}"
-  ],
+  "buildTargetsCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "ed25519-donna::@6890427a1f51a3e7e1df": {
+    "ed25519-donna-Debug-x86": {
       "artifactName": "ed25519-donna",
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86\" ed25519-donna",
       "abi": "x86",
-      "output": "/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/debug/x86/libed25519-donna.a",
+      "output": "/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86/libed25519-donna.a",
       "runtimeFiles": []
     },
-    "ed25519_blake2b::@6890427a1f51a3e7e1df": {
+    "ed25519_blake2b-Debug-x86": {
       "artifactName": "ed25519_blake2b",
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86\" ed25519_blake2b",
       "abi": "x86",
-      "output": "/Users/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/x86/libed25519_blake2b.so",
+      "output": "/home/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/x86/libed25519_blake2b.so",
       "runtimeFiles": []
     }
   }

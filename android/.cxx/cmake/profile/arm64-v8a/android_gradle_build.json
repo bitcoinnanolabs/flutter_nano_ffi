@@ -1,0 +1,166 @@
+{
+  "stringTable": {
+    "0": "/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/douglas/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/douglas/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "2": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/douglas/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/douglas/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ded25519_blake2b_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/douglas/projects/btco/flutter_nano_ffi/android/CMakeLists.txt",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ed25519_blake2b-Release-arm64-v8a": {
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a\" ed25519_blake2b",
+      "buildType": "release",
+      "toolchain": "3709587572",
+      "abi": "arm64-v8a",
+      "artifactName": "ed25519_blake2b",
+      "files": [
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/profile/obj/arm64-v8a/libed25519_blake2b.so",
+      "runtimeFiles": []
+    },
+    "ed25519-donna-Release-arm64-v8a": {
+      "buildCommand": "/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a\" ed25519-donna",
+      "buildType": "release",
+      "toolchain": "3709587572",
+      "abi": "arm64-v8a",
+      "artifactName": "ed25519-donna",
+      "files": [
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2_common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-portable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-hash-custom-blake2b.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-hash-custom.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/profile/arm64-v8a/libed25519-donna.a"
+    }
+  },
+  "toolchains": {
+    "3709587572": {
+      "cCompilerExecutable": "/home/douglas/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

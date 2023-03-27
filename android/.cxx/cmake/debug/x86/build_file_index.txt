@@ -1,1 +1,0 @@
-/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/CMakeLists.txt

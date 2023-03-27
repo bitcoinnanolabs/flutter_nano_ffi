@@ -1,0 +1,7 @@
+Executable : /home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/release/armeabi-v7a
+ed25519_blake2b
+jvmArgs : 
+

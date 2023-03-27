@@ -1,14 +1,14 @@
 # ninja log v5
-4	94	1679694510031623381	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c.o	e1e2ed80d69582d3
-0	98	1679694510035081386	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c.o	84137f0ce730734b
-1	106	1679694510038143400	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c.o	591ff93a8437ac07
-1	107	1679694510038419810	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c.o	8fe2aaa8f5ef933d
-0	112	1679694510050385580	CMakeFiles/ed25519_blake2b.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c.o	664d160528189636
-2	112	1679694510050909943	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c.o	ec52cc74c41aaa8f
-2	117	1679694510053944791	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c.o	2c33aec9708f9017
-1	123	1679694510062990795	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c.o	9a3973af26534a5d
-0	136	1679694510076356283	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c.o	5cf89c7c96c18090
-94	166	1679694510107033296	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c.o	8567a7cfcceae8a6
-0	183	1679694510123976995	CMakeFiles/ed25519-donna.dir/Users/douglas/projects/btco/appditto/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c.o	652ddfc9df8cbb
-183	424	1679694510366179000	libed25519-donna.a	6fa7a3a0aea334e2
-424	460	1679694510399765368	/Users/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/armeabi-v7a/libed25519_blake2b.so	5f694dd51946dd6d
+12	704	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c.o	94a32b9a7249bb24
+1	777	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c.o	c16bf3b61dba8a67
+705	778	1626736658	CMakeFiles/ed25519_blake2b.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c.o	290843b1b6e2a72a
+2	794	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c.o	ddf63b0a3c323522
+11	813	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c.o	8311dc43bf160ffa
+1	830	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c.o	bd013b7a1d3bbb5b
+2	838	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c.o	373d72a624a360ed
+2	876	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c.o	eab61a86a143adb9
+16	915	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c.o	b1e8ba469f2d89ae
+1	920	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c.o	c7b182e5d055d8ed
+0	998	1626736658	CMakeFiles/ed25519-donna.dir/home/douglas/projects/btco/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c.o	983945985626efb5
+998	2102	1626736659	libed25519-donna.a	330e12ee29bd0a06
+2102	2249	1626736659	/home/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/armeabi-v7a/libed25519_blake2b.so	1f315453993a26a0

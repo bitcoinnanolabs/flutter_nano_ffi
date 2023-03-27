@@ -1,24 +1,21 @@
-                    Executable : /Users/douglas/Library/Android/sdk/cmake/3.22.1/bin/cmake
+                Executable : /home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android
--DCMAKE_FIND_ROOT_PATH=/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/debug/prefab/x86/prefab
+-H/home/douglas/projects/btco/flutter_nano_ffi/android
+-DCMAKE_FIND_ROOT_PATH=/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/prefab/x86/prefab
 -DCMAKE_BUILD_TYPE=Debug
--DCMAKE_TOOLCHAIN_FILE=/Users/douglas/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=/home/douglas/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=x86
--DANDROID_NDK=/Users/douglas/Library/Android/sdk/ndk/25.1.8937393
--DANDROID_PLATFORM=android-19
+-DANDROID_NDK=/home/douglas/Android/Sdk/ndk/21.1.6352462
+-DANDROID_PLATFORM=android-16
 -DCMAKE_ANDROID_ARCH_ABI=x86
--DCMAKE_ANDROID_NDK=/Users/douglas/Library/Android/sdk/ndk/25.1.8937393
+-DCMAKE_ANDROID_NDK=/home/douglas/Android/Sdk/ndk/21.1.6352462
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/x86
--DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/x86
--DCMAKE_MAKE_PROGRAM=/Users/douglas/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/debug/obj/x86
+-DCMAKE_MAKE_PROGRAM=/home/douglas/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
--DCMAKE_SYSTEM_VERSION=19
--B/Users/douglas/projects/btco/appditto/flutter_nano_ffi/android/.cxx/cmake/debug/x86
+-DCMAKE_SYSTEM_VERSION=16
+-B/home/douglas/projects/btco/flutter_nano_ffi/android/.cxx/cmake/debug/x86
 -GNinja
 jvmArgs : 
 
-
-                    Build command args: []
-                    Version: 1
+Build command args:
