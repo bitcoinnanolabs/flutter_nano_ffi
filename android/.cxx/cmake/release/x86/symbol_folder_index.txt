@@ -1,0 +1,1 @@
+/Users/douglas/projects/btco/btco-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/release/obj/x86
